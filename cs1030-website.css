@@ -1,10 +1,7 @@
 @charset "UTF-8";  
-html {
-    box-sizing: border-box;
-  }
-  * {
-    box-sizing: inherit;
-  }
+body{
+    display: grid;
+}
 a {
     text-decoration: none;
     border-bottom: 1px dotted;
@@ -25,8 +22,6 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -53,8 +48,8 @@ nav ul li a {
 
 /*Body Section*/
 img.coffee{
-    width: 302px;
-    height: 403px;
+    width: 15em;
+    height: 20em;
     margin: 1em;
     float: left;
 }
